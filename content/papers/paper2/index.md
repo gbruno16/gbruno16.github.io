@@ -1,14 +1,15 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
-publisher: "me"
+title: "The Challenges of the Nonlinear Regime for Physics-Informed Neural Networks" 
+date: 2024-09-28
+tags: ["Physics-Informed Neural Networks", "Neural Tangent Kernel", "Nonlinear PDEs", "Second-order optimization"]
+author: ["Andrea Bonfanti", "Giuseppe Bruno", "Cristina Cipriani"]
+description: "" 
+summary: "The Neural Tangent Kernel (NTK) viewpoint is widely employed to analyze the training dynamics of overparameterized Physics-Informed Neural Networks (PINNs). However, unlike the case of linear Partial Differential Equations (PDEs), we show how the NTK perspective falls short in the nonlinear scenario. Specifically, we establish that the NTK yields a random matrix at initialization that is not constant during training, contrary to conventional belief. Another significant difference from the linear regime is that, even in the idealistic infinite-width limit, the Hessian does not vanish and hence it cannot be disregarded during training. This motivates the adoption of second-order optimization methods. We explore the convergence guarantees of such methods in both linear and nonlinear cases, addressing challenges such as spectral bias and slow convergence. Every theoretical result is supported by numerical examples with both linear and nonlinear PDEs, and we highlight the benefits of second-order methods in benchmark test cases." 
+publisher: "NeurIPS 2024 [Poster]"
+link: "https://arxiv.org/abs/2402.03864"
 cover:
-    image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    image: "paper2_ns.png"
+    alt: "Navier Stokes equations"
     relative: true
 editPost:
     URL: "https://github.com/pmichaillat/hugo-website"
