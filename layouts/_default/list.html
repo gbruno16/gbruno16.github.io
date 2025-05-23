@@ -64,6 +64,11 @@
       {{- end }}
     </h2>
   </header>
+  {{ with .Params.publisher }}
+  <div class="entry-publisher">
+    <span>{{ . | plainify | htmlUnescape }}</span>
+  </div>
+  {{ end }}
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
@@ -74,8 +79,10 @@
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-</article>
+  {{ with .Params }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Link }}"></a>
+  {{ end }}
+  </article>
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}

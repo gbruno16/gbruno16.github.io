@@ -29,7 +29,7 @@ menu:
           weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "This website hosts Giuseppe Bruno's research papers, books, course materials, data, curriculum vitae, and contact information."
     author: Giuseppe Bruno
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "May 2025"
@@ -71,13 +71,13 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
+          url: mailto:giuseppe.bruno@unibe.ch
         - name: Location
           url: location/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=gbruno16
         - name: GitHub
-          url: https://github.com/pmichaillat
+          url: https://github.com/gbruno16
   
     assets:
         disableScrollBarStyle: true

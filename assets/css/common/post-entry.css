@@ -71,6 +71,10 @@
     color: var(--content);
     font-size: var(--entrysize);
 }
+.entry-publisher {
+    color: var(--content);
+    font-size: var(--entrysize);
+}
 
 .entry-link {
     position: absolute;
